@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9499442B221C0A2500F1657D /* PersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499442A221C0A2500F1657D /* PersonCollectionViewCell.swift */; };
+		9499442D221C0CD500F1657D /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499442C221C0CD500F1657D /* DBManager.swift */; };
+		94994432221C14F500F1657D /* RealmModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94994431221C14F500F1657D /* RealmModels.swift */; };
+		94994437221C213800F1657D /* AllData.json in Resources */ = {isa = PBXBuildFile; fileRef = 94994436221C213800F1657D /* AllData.json */; };
+		9499443B221DF7DB00F1657D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499443A221DF7DB00F1657D /* MapViewController.swift */; };
 		949A9346221B01C5009E204C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A9345221B01C5009E204C /* AppDelegate.swift */; };
-		949A9348221B01C5009E204C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A9347221B01C5009E204C /* ViewController.swift */; };
+		949A9348221B01C5009E204C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A9347221B01C5009E204C /* MainViewController.swift */; };
 		949A934B221B01C5009E204C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949A9349221B01C5009E204C /* Main.storyboard */; };
 		949A934D221B01C7009E204C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949A934C221B01C7009E204C /* Assets.xcassets */; };
 		949A9350221B01C7009E204C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949A934E221B01C7009E204C /* LaunchScreen.storyboard */; };
+		D321E05D4729D451AD290438 /* Pods_lun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50CFA85E4A2D5E38C98078F /* Pods_lun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DE7CE89108C343F2492B0A7 /* Pods-lun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lun.release.xcconfig"; path = "Pods/Target Support Files/Pods-lun/Pods-lun.release.xcconfig"; sourceTree = "<group>"; };
+		9499442A221C0A2500F1657D /* PersonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCollectionViewCell.swift; sourceTree = "<group>"; };
+		9499442C221C0CD500F1657D /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		94994431221C14F500F1657D /* RealmModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModels.swift; sourceTree = "<group>"; };
+		94994436221C213800F1657D /* AllData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllData.json; sourceTree = "<group>"; };
+		9499443A221DF7DB00F1657D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		949A9342221B01C5009E204C /* lun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		949A9345221B01C5009E204C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		949A9347221B01C5009E204C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		949A9347221B01C5009E204C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		949A934A221B01C5009E204C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		949A934C221B01C7009E204C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		949A934F221B01C7009E204C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		949A9351221B01C7009E204C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50CFA85E4A2D5E38C98078F /* Pods_lun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2E938A62D666FED6C3C641 /* Pods-lun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lun/Pods-lun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D321E05D4729D451AD290438 /* Pods_lun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9499442E221C101300F1657D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94994431221C14F500F1657D /* RealmModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94994433221C209900F1657D /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				94994436221C213800F1657D /* AllData.json */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
 		949A9339221B01C4009E204C = {
 			isa = PBXGroup;
 			children = (
 				949A9344221B01C5009E204C /* lun */,
 				949A9343221B01C5009E204C /* Products */,
+				CFA20CA3CC35B5F352E17951 /* Pods */,
+				DAB4F379E406099A14C7AD2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,36 @@
 		949A9344221B01C5009E204C /* lun */ = {
 			isa = PBXGroup;
 			children = (
+				94994433221C209900F1657D /* Additional */,
+				9499442E221C101300F1657D /* Models */,
 				949A9345221B01C5009E204C /* AppDelegate.swift */,
-				949A9347221B01C5009E204C /* ViewController.swift */,
+				9499442C221C0CD500F1657D /* DBManager.swift */,
+				9499442A221C0A2500F1657D /* PersonCollectionViewCell.swift */,
+				9499443A221DF7DB00F1657D /* MapViewController.swift */,
+				949A9347221B01C5009E204C /* MainViewController.swift */,
 				949A9349221B01C5009E204C /* Main.storyboard */,
 				949A934C221B01C7009E204C /* Assets.xcassets */,
 				949A934E221B01C7009E204C /* LaunchScreen.storyboard */,
 				949A9351221B01C7009E204C /* Info.plist */,
 			);
 			path = lun;
+			sourceTree = "<group>";
+		};
+		CFA20CA3CC35B5F352E17951 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E938A62D666FED6C3C641 /* Pods-lun.debug.xcconfig */,
+				4DE7CE89108C343F2492B0A7 /* Pods-lun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAB4F379E406099A14C7AD2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50CFA85E4A2D5E38C98078F /* Pods_lun.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 949A9354221B01C7009E204C /* Build configuration list for PBXNativeTarget "lun" */;
 			buildPhases = (
+				E97DFB5B24F14D3C5C6DB79C /* [CP] Check Pods Manifest.lock */,
 				949A933E221B01C5009E204C /* Sources */,
 				949A933F221B01C5009E204C /* Frameworks */,
 				949A9340221B01C5009E204C /* Resources */,
+				67574C8B1A400987113C6512 /* [CP] Embed Pods Frameworks */,
+				5D0CE870FF013B590A2898E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94994437221C213800F1657D /* AllData.json in Resources */,
 				949A9350221B01C7009E204C /* LaunchScreen.storyboard in Resources */,
 				949A934D221B01C7009E204C /* Assets.xcassets in Resources */,
 				949A934B221B01C5009E204C /* Main.storyboard in Resources */,
@@ -130,13 +189,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D0CE870FF013B590A2898E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lun/Pods-lun-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lun/Pods-lun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67574C8B1A400987113C6512 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lun/Pods-lun-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lun/Pods-lun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E97DFB5B24F14D3C5C6DB79C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		949A933E221B01C5009E204C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949A9348221B01C5009E204C /* ViewController.swift in Sources */,
+				949A9348221B01C5009E204C /* MainViewController.swift in Sources */,
+				9499442B221C0A2500F1657D /* PersonCollectionViewCell.swift in Sources */,
+				94994432221C14F500F1657D /* RealmModels.swift in Sources */,
+				9499442D221C0CD500F1657D /* DBManager.swift in Sources */,
 				949A9346221B01C5009E204C /* AppDelegate.swift in Sources */,
+				9499443B221DF7DB00F1657D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +404,7 @@
 		};
 		949A9355221B01C7009E204C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2E938A62D666FED6C3C641 /* Pods-lun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +422,7 @@
 		};
 		949A9356221B01C7009E204C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE7CE89108C343F2492B0A7 /* Pods-lun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
